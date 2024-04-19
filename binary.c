@@ -1,7 +1,5 @@
 # include <stdio.h>
 # include <stdlib.h>
-# include <math.h>
-
 
 int binary_search(int arr[], int start, int end, int target) {
     int middle = start + ((end - start) / 2 );
@@ -38,7 +36,7 @@ int main() {
         printf("%d ", arr[i]);
     }
     printf("\n");
-    int target = 30;
+    int target = 33;
     int result = binary_search(arr, 0, end - 1, target);
     if (result == -1){
         printf("Element is not present"" in array");
